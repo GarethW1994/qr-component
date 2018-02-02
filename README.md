@@ -1,4 +1,5 @@
 # QR Code Scanning Component
+ - A JET component that Scans QR Codes Using The Browser's Camera
 
 ## Usage
 - Copy to jet-composites folder in your project directory.
