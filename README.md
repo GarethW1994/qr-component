@@ -1,5 +1,8 @@
-# ojet component template
+# QR Code Scanning Component
 
 ## Usage
-Refer to the oj.Composite jsdoc
-http://www.oracle.com/webfolder/technetwork/jet/jsdocs/oj.Composite.html
+- Copy to jet-composites folder in your project directory.
+- Reference the Instascan Library in the main index.html 
+  file found in the libs folder of this component.
+  
+``` <script type="text/javascript" src="js/qr-scanner/libs/instascan/instascan.min.js"></script> ```
