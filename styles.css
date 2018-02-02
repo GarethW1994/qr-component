@@ -1,0 +1,16 @@
+qr-scanner:not(.oj-complete){
+  visibility: hidden;
+}
+
+qr-scanner{
+
+}
+
+#video-container {
+
+  overflow: hidden;
+}
+
+#data-container {
+  
+}

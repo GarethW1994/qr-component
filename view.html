@@ -1,0 +1,30 @@
+
+      <h3>QR Code Scanner: </h3>
+    <div id="sampleDemo" style="" class="demo-padding demo-container">
+            <div id="componentDemoContent" style="width: 1px; min-width: 100%;">
+              <p> Scan QR Code: <span class="demo-screen-range" data-bind="text: qr_state"></span></p>
+              
+              <div class="demo-grid-sizes demo-flex-display">
+                <div class="oj-flex oj-flex-items-pad">
+                  <div class="oj-sm-12 oj-md-12 oj-lg-8 oj-flex-item">
+                        <div id="video-container">
+                                <video id="preview"></video>    
+                            </div>
+                  </div>
+                  <div class="oj-sm-12 oj-md-6  oj-lg-2 oj-flex-item">
+                        <div id="data-container">
+                                <div id="header">
+                                    <h4>Content Being Scanned:</h4>
+                                </div>
+                                <ul data-bind="foreach: qr_val">
+                                    <span data-bind="$data"></span>
+                                    <li data-bind="text: $data"></li>
+                                </ul>
+                            </div>
+                  </div>
+                </div>
+              </div>
+      
+              
+            </div>
+          </div>
